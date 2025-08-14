@@ -1,0 +1,199 @@
+
+
+:root{
+    --blue: #007bff;
+    --orange:#ffa500;
+    --dark: #343a40;
+    --light-skyblue:#87cefa;
+    --lighting-color: #ffffff;
+    --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    --hover-color: #0056b3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+.topnav {
+    background-color:var(--blue);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;right: 0;left: 0;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last button{
+    background-color: var(--orange);
+    color: var(--lighting-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.last button:hover {
+    background-color: var(--lighting-color);
+    color: var(--orange);
+}   
+
+a{
+    text-decoration: none;
+    color: var(--lighting-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 10px 10px;
+}
+a:hover {
+    color: var(--orange);
+}
+.last div i{
+    display: none;
+}
+.container i{
+    display: none;
+    color: var(--lighting-color);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media (max-width:768px){
+  ul{
+    position: absolute;
+    top: 99%; left: 0;right: 0;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0 30px;
+    border-top: 1px solid #000;
+    display: none;
+} 
+ul:active{
+    display: flex;
+}
+ul li a{
+    padding: 10px 0;
+    color: var(--blue);
+} 
+.topnav{
+    padding: 10px 20px;
+}
+.last button {
+    display: none;;
+}
+a{
+    padding: 5px 0;
+}
+.last div i{
+    display: block;
+}
+.container i{
+    display: block;
+    color: var(--lighting-color);
+    font-size: 24px;
+    cursor: pointer;
+}
+.fa-times{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+        
+        align-items: center;
+    }
+    ul {
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        padding: 10px;
+        background-color: var(--light-skyblue);
+    }
+    ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .fa-times{
+    display: none;
+}
+
+}
+
+
+
+
+
