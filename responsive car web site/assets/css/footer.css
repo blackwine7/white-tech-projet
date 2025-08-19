@@ -1,3 +1,27 @@
+
+.review-img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 #footer-01 { width:100%;
 background-color:#000;
 float:left;
