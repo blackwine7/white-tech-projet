@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <style>
-        .icons .fa-bar,
+        .icons .fa-bars,
         .icons .fa-times {
-            display: none;
+            display: flex;
+            color: aliceblue;
         }
     </style>
 </head>
@@ -21,27 +22,26 @@
     <!-- navigation part -->
     <nav class="navbar navbar-white navbar-expand bg-dark d-flex align-items-center">
         <div class="container-fluid d-flex">
-            <div class="icons">
-                <i class=" fas fa-bar bg-white"></i>
-                <i class=" fas fa-times bg-primary"></i>
-            </div>
-            <a href="" class="navbar-brand me-auto "><span>McKanons</span>Motors</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 
-            <div class="topnav me-auto">
-                <a href="#home" class="nav-item  mx-2">home</a>
-                <a href="#services" class="nav-item mx-2">services</a>
-                <a href="#vehicles" class="nav-item mx-2">vehicles</a>
-                <a href="#features" class="nav-item mx-2">features</a>
-                <a href="#reviews" class="nav-item mx-2">reviews</a>
-                <a href="#contact us" class="nav-item mx-2">contact us</a>
+            <div class="logo navbar-brand me-auto d-flex">
+                <a href="" class="navbar-brand me-auto "><span>McKanons</span>Motors</a>
+            </div>
+            <div class="topnav me-auto collapse navbar-collapse justify-content-md-center navbar-nav">
+                <a href="#home" class="nav-item  px-4 ">home</a>
+                <a href="#services" class="nav-item px-4">services</a>
+                <a href="#vehicles" class="nav-item px-4">vehicles</a>
+                <a href="#features" class="nav-item px-4">features</a>
+                <a href="#reviews" class="nav-item px-4">reviews</a>
+                <a href="#contact us" class="nav-item px-4">contact us</a>
             </div>
 
-            <div class="d-flex px-8 align-items-center  gap-2  ">
+            <div class="d-flex px-8 align-items-center  gap-2 form ">
                 <form action="" method="post" class="me-15">
                     <input type="search" name="" id="" value="" placeholder="search" class="form-control">
                 </form>
                 <div class="login">
-                    <a href="#" class="btn btn-primary">login</a>
+                    <a href="../responsive car web site/login/learn.html" class="btn btn-primary">login</a>
                 </div>
             </div>
         </div>
@@ -51,8 +51,9 @@
     <!-- home hero section -->
     <section class="home px-5 py-5 d-flex align-items-center">
         <div class="jumbotron d-flex align-items-center justify-content-space-between flex-nowrap ">
-            <div class="col-lg-6 col-2 ">
-                <h1 class="fw-bold text-body-emphasis ">Welcome to <span>McKanons</span>Motors</h1>
+            <div class="col-lg-6 col ">
+                <h1 class="fw-bold text-body-emphasis ">Welcome to <span class="logo"><span>McKanons</span>Motors</span>
+                </h1>
                 <p class="lead">Your one-stop destination for the best vehicles in town. Explore our wide range of cars
                     and find your perfect match.</p>
                 <a href="#vehicles" class="btn btn-primary">Explore Vehicles</a>
@@ -72,48 +73,53 @@
     <section class="icon-container px-5 py-5 d-flex align-items-center justify-content-center flex-wrap">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                <div
+                    class="box-icons col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
                     <i class="fa-solid fa-car-side fa-3x"></i>
                     <h5>Wide Range of Vehicles</h5>
                     <p>Explore our extensive collection of cars, trucks, and SUVs.</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                <div
+                    class="box-icons col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
                     <i class="fa-solid fa-tools fa-3x"></i>
                     <h5>Expert Services</h5>
                     <p>Get top-notch maintenance and repair services from our skilled technicians.</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                <div
+                    class="box-icons col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
                     <i class="fa-solid fa-headset fa-3x"></i>
                     <h5>24/7 Support</h5>
                     <p>Our customer support team is here to assist you anytime, anywhere.</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                <div
+                    class="box-icons col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
                     <i class="fa-solid fa-headset fa-3x"></i>
                     <h5>24/7 Support</h5>
                     <p>Our customer support team is here to assist you anytime, anywhere.</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                <div
+                    class="box-icons col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
                     <i class="fa-solid fa-headset fa-3x"></i>
                     <h5>24/7 Support</h5>
                     <p>Our customer support team is here to assist you anytime, anywhere.</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                <div
+                    class="box-icons col-md-4 col-sm-6 col-12 d-flex align-items-center justify-content-center flex-column">
                     <i class="fa-solid fa-headset fa-3x"></i>
                     <h5>24/7 Support</h5>
                     <p>Our customer support team is here to assist you anytime, anywhere.</p>
                 </div>
             </div>
-            
+
     </section>
 
     <!-- services Sections -->
     <section id="services">
-        <h1 class="text-body-emphasis fw-bold text-center">Our Services</h1>
+        <h1 class="text-body-emphasis fw-bold text-center ">Our Services</h1>
         <div class="container">
-            <div class="row">
+            <div class="row my-5">
 
-                <div
-                    class="services-items d-flex flex-column align-items-center justify-content-center col-md-4 col-sm-6 col-12">
+                <div class="services-items d-flex flex-column  align-items-center justify-content-center col-md-4 col-sm-6 col-12">
                     <div>
                         <i class="fa fa-symbol"></i>
                     </div>
@@ -124,10 +130,10 @@
                     <button class="btn btn-primary" class="btn btn-primary">READ MORE</button ">
                 </div>
 
-                <div class=" services-items d-flex flex-column align-items-center justify-content-center col-md-4
+                <div class=" services-items d-flex flex-column  align-items-center justify-content-center col-md-4
                         col-sm-6 col-12">
                     <div>
-                        <i class="fa fa-symbol"></i>
+                        <i class="fa fa-car-side"></i>
                     </div>
                     <h3 class="text-body-emphasis fw-bold">car repair</h3>
                     <p class="lead text-body-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
@@ -136,7 +142,7 @@
                     <button class="btn btn-primary">READ MORE</button ">
                 </div>
 
-                <div class=" services-items d-flex flex-column align-items-center justify-content-center col-md-4
+                <div class=" services-items d-flex flex-column  align-items-center justify-content-center col-md-4
                         col-sm-6 col-12">
                     <div>
                         <i class="fa fa-symbol"></i>
@@ -148,13 +154,13 @@
                     <button class="btn btn-primary">READ MORE</button ">
                 </div>
 
-            </div>
-            <div class=" row">
+            </div> 
+            <div class="row my-5">
 
                     <div
-                        class="services-items d-flex flex-column align-items-center justify-content-center col-md-4 col-sm-6 col-12">
+                        class="services-items d-flex flex-column  align-items-center justify-content-center col-md-4 col-sm-6 col-12">
                         <div>
-                            <i class="fa fa-symbol"></i>
+                            <i class="fa fa-car"></i>
                         </div>
                         <h3 class="text-body-emphasis fw-bold">car location</h3>
                         <p class="lead text-body-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -163,10 +169,10 @@
                         <button class="btn btn-primary">READ MORE</button ">
                 </div>
 
-                <div class=" services-items d-flex flex-column align-items-center justify-content-center col-md-4
+                <div class=" services-items d-flex flex-column  align-items-center justify-content-center col-md-4
                             col-sm-6 col-12">
                         <div>
-                            <i class="fa fa-symbol"></i>
+                            <i class="fa fa-car-battery"></i>
                         </div>
                         <h3 class="text-body-emphasis fw-bold">battery replacement</h3>
                         <p class="lead text-body-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -175,10 +181,10 @@
                         <button class="btn btn-primary">READ MORE</button ">
                 </div>
 
-                <div class=" services-items d-flex flex-column align-items-center justify-content-center col-md-4
+                <div class=" services-items d-flex flex-column  align-items-center justify-content-center col-md-4
                             col-sm-6 col-12">
                         <div>
-                            <i class="fa fa-symbol"></i>
+                            <i class="fa fa-oil-can"></i>
                         </div>
                         <h3 class="text-body-emphasis fw-bold">oil change</h3>
                         <p class="lead text-body-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -193,21 +199,23 @@
         <!-- services Sections -->
 
         <!-- features sections -->
-         <section class=" featurea" id="features">
+         <section class=" feature" id="features">
                         <div class="slider">
+                            <i class="fa fa-arrow-left"></i>
+                            <i class="fa fa-arrow-right"></i>
                             <div class="wrapper">
 
                                 <div class="box">
                                     <img src="../responsive car web site/images/car5.jpg" width="500" height="400">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
                                     <a href="#" class="btn btn-success">check out</a>
@@ -216,7 +224,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/home-car-1.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -232,7 +240,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/home-car-2.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -248,7 +256,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/car2.jpg" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -264,7 +272,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/car3.jpg" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -280,7 +288,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/car6.jpg" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -296,7 +304,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/home-car-3.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -312,7 +320,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/home-car-4.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -328,7 +336,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/model-car-3.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -344,7 +352,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/model-car-2.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -360,7 +368,7 @@
                                 <div class="box">
                                     <img src="../responsive car web site/images/model-car-1.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -374,9 +382,9 @@
                                 </div>
 
                                 <div class="box">
-                                    <img src="../responsive car web site/images/" alt="">
+                                    <img src="../responsive car web site/images/model-car-2.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -390,9 +398,9 @@
                                 </div>
 
                                 <div class="box">
-                                    <img src="../responsive car web site/images/" alt="">
+                                    <img src="../responsive car web site/images/model-car-3.png" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -406,9 +414,9 @@
                                 </div>
 
                                 <div class="box">
-                                    <img src="../responsive car web site/images/" alt="">
+                                    <img src="../responsive car web site/images/car2.jpg" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -422,9 +430,9 @@
                                 </div>
 
                                 <div class="box">
-                                    <img src="../responsive car web site/images/" alt="">
+                                    <img src="../responsive car web site/images/car6.jpg" alt="">
                                     <h3>new model</h3>
-                                
+
                                     <div class="star">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -443,16 +451,17 @@
     <!-- features sections -->
 
     <!-- review sections -->
-     <section id="review" class="review">
+    <section id="review" class="review">
 
         <h1 class="text-center">client's reviews</h1>
-        <div class="review-slider container">
-            <div class="wrapper">
+        <div class="review-slider" >
 
-                <div class="box">
+            <div class="wrapper ">
+                <div class="box mx-3 ">
                     <img class="review-img" src="images/african-american-woman-smiling-beige-background.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3></h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -462,13 +471,49 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
+                <div class="box mx-3 ">
+                    <img class="review-img" src="images/telephone-party-talking-green-casual-outfit.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
+                        <h3>Mme melanie</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box mx-3 ">
+                    <img class="review-img"
+                        src="images/confident-african-businesswoman-mockup-psd-smiling-closeup-portr.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
+                        <h3>Mme melanie</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box mx-3 ">
                     <img class="review-img" src="images/attractive-plus-size-model-white-shirt-apparel.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -478,13 +523,15 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
-                    <img class="review-img" src="images/confident-african-businesswoman-mockup-psd-smiling-closeup-portr.jpg" alt="">
+                <div class="box mx-3 ">
+                    <img class="review-img"
+                        src="images/confident-african-businesswoman-mockup-psd-smiling-closeup-portr.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -494,13 +541,14 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
+                <div class="box mx-3 ">
                     <img class="review-img" src="images/front-view-smiley-man-with-copy-space.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -510,13 +558,14 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
+                <div class="box mx-3 ">
                     <img class="review-img" src="images/portrait-bearded-man-with-headphones.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -526,13 +575,15 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
-                    <img class="review-img" src="images/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt="">
+                <div class="box mx-3 ">
+                    <img class="review-img"
+                        src="images/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -542,13 +593,14 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
+                <div class="box mx-3 ">
                     <img class="review-img" src="images/portrait-young-woman-smiling-isolated.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -558,13 +610,14 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="box">
-                    <img  class="review-img" src="images/telephone-party-talking-green-casual-outfit.jpg" alt="">
+                <div class="box mx-3 ">
+                    <img class="review-img" src="images/telephone-party-talking-green-casual-outfit.jpg" alt="">
                     <div class="content">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus deserunt</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ab doloribus, delectus
+                            deserunt</p>
                         <h3>Mme melanie</h3>
                         <div class="stars">
                             <i class="fa fa-star"></i>
@@ -574,241 +627,247 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                    </div>  
+                    </div>
                 </div>
 
 
             </div>
         </div>
-     </section>
+    </section>
     <!-- review sections -->
- <!--banner-start-->
+    <!--banner-start-->
 
-<section id="contact-banner">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-md-12">
-            	<div class="banner-text">
-                	<h1>Contact</h1>
-                </div><!--banner-text-->
-            </div><!--col-md-12-->
-        </div><!--row-->
-    </div><!--container-->
-</section>
-       
- <!--banner-end-->
-
- 
- 
- 
- <!--contact-start-->
-
-<section id="contact us">
-	<div class="container-fluid">
-            <div class="row cont-row">
-                    <div class="col-md-6 col-sm-6 contact-col">
-                        <div class="contact-left">
-                            <div class="top-contact">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="contact-address">
-                                            <h4>address</h4>
-                                            <p>Newyork 17,<br> 3511GD <br>philiwest park</p>
-                                        </div><!--contact-address-->
-                                    </div><!--col-md-6-->  
-                                    
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="contact-address">
-                                            <h4>Openingstijden showroom</h4>
-                                            <p>Ma-Vr: 09.00-19.00 uur<br> Za: 09.00-18.00 uur</p>
-                                        </div><!--contact-address-->
-                                    </div><!--col-md-6-->
-                                </div><!--row-->   
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="contact-address">
-                                            <h4>Telephone and e-mail</h4>
-                                            <p>+1 46596688<br> 3511GD <br>Dacostagic@gmail.com</p>
-                                        </div><!--contact-address-->
-                                    </div><!--col-md-6-->
-                                    
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="contact-address">
-                                            <h4>her you will locate us</h4>
-                                            <p>Ma-Vr: 09.00-19.00 uur<br> Za: 09.00-18.00 uur</p>
-                                        </div><!--contact-address-->
-                                    </div><!--col-md-6-->
-                                </div><!--row-->
-                                
-                                <div class="map-text">
-                                    <p><span></span> Our location on Google maps</p>
-                                </div><!--map-text-->
-                                
-                            </div><!--top-contact-->
-                            
-                            <div class="bottom-contact">
-                                
-                                <div class="contact-heading">
-                                    <h2>LEAVE US A MESSAGE</h2>
-                                </div><!--contact-heading-->
-                                
-                                <div class="contact-form">
-                                    <form name="frm" action="mailsend.php" method="POST"> 
-                                        <p>
-                                            <label>Name</label>
-                                            <input type="text" name="naam" required value="" id="" placeholder="">
-                                        </p>
-                                        
-                                        <p>
-                                            <label>E-mail</label>
-                                            <input type="email" name="email" required value="" id="" placeholder="">
-                                        </p>
-                                        
-                                        <p>
-                                            <label>Phone Number</label>
-                                            <input type="number" name="telefoonnumber" required value="" id="" placeholder="">
-                                        </p>
-                                        
-                                        <p>
-                                            <label>message</label>
-                                            <textarea name="bericht" required cols="" rows="" placeholder=""></textarea>
-                                        </p>
-                                        
-                                        <p><input type="submit" name="submit" value="Submit" id="" class="button-cont"></p>
-                                    </form>
-									
-                                </div><!--contact-form-->
-                                
-                            </div><!--bottom-contact-->
-                            
-                        </div><!--contact-left-->
-                    </div><!--col-md-5-->
-
-                    <div class="col-md-6 col-sm-6 contact-col">
-                        <div class="contact-right">
-                            
-                            <div class="map-div">
-                                 <div id="map"></div>
-                            </div><!--map-div-->
-                            
-                            <div class="contact-img">
-                                <img src="images/MAPMC KANONS.jpg" alt="contact-img" class="img-responsive">
-                            </div><!--contact-img-->
-                            
-                        </div><!--contact-right-->
-                    </div><!--col-md-7-->
+    <section id="contact-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner-text">
+                        <h1>Contact</h1>
+                    </div><!--banner-text-->
+                </div><!--col-md-12-->
             </div><!--row-->
-    </div><!--container-->
-</section> 
- 
- 
- <!--contact-end-->
+        </div><!--container-->
+    </section>
 
-     <!-- footer secttions -->
-      <footer class="footer">
+    <!--banner-end-->
+
+
+
+
+    <!--contact-start-->
+
+    <section id="contact us">
+        <div class="container-fluid">
+            <div class="row cont-row">
+                <div class="col-md-6 col-sm-6 contact-col">
+                    <div class="contact-left">
+                        <div class="top-contact">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="contact-address">
+                                        <h4>address</h4>
+                                        <p>Newyork 17,<br> 3511GD <br>philiwest park</p>
+                                    </div><!--contact-address-->
+                                </div><!--col-md-6-->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="contact-address">
+                                        <h4>Openingstijden showroom</h4>
+                                        <p>Ma-Vr: 09.00-19.00 uur<br> Za: 09.00-18.00 uur</p>
+                                    </div><!--contact-address-->
+                                </div><!--col-md-6-->
+                            </div><!--row-->
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="contact-address">
+                                        <h4>Telephone and e-mail</h4>
+                                        <p>+1 46596688<br> 3511GD <br>Dacostagic@gmail.com</p>
+                                    </div><!--contact-address-->
+                                </div><!--col-md-6-->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="contact-address">
+                                        <h4>her you will locate us</h4>
+                                        <p>Ma-Vr: 09.00-19.00 uur<br> Za: 09.00-18.00 uur</p>
+                                    </div><!--contact-address-->
+                                </div><!--col-md-6-->
+                            </div><!--row-->
+
+                            <div class="map-text">
+                                <p><span></span> Our location on Google maps</p>
+                            </div><!--map-text-->
+
+                        </div><!--top-contact-->
+
+                        <div class="bottom-contact">
+
+                            <div class="contact-heading">
+                                <h2>LEAVE US A MESSAGE</h2>
+                            </div><!--contact-heading-->
+
+                            <div class="contact-form">
+                                <form name="frm" action="mailsend.php" method="POST">
+                                    <p>
+                                        <label>Name</label>
+                                        <input type="text" name="naam" required value="" id="" placeholder="">
+                                    </p>
+
+                                    <p>
+                                        <label>E-mail</label>
+                                        <input type="email" name="email" required value="" id="" placeholder="">
+                                    </p>
+
+                                    <p>
+                                        <label>Phone Number</label>
+                                        <input type="number" name="telefoonnumber" required value="" id=""
+                                            placeholder="">
+                                    </p>
+
+                                    <p>
+                                        <label>message</label>
+                                        <textarea name="bericht" required cols="" rows="" placeholder=""></textarea>
+                                    </p>
+
+                                    <p><input type="submit" name="submit" value="Submit" id="" class="button-cont"></p>
+                                </form>
+
+                            </div><!--contact-form-->
+
+                        </div><!--bottom-contact-->
+
+                    </div><!--contact-left-->
+                </div><!--col-md-5-->
+
+                <div class="col-md-6 col-sm-6 contact-col">
+                    <div class="contact-right">
+
+                        <div class="map-div">
+                            <div id="map"></div>
+                        </div><!--map-div-->
+
+                        <div class="contact-img">
+                            <img src="images/MAPMC KANONS.jpg" alt="contact-img" class="img-responsive">
+                        </div><!--contact-img-->
+
+                    </div><!--contact-right-->
+                </div><!--col-md-7-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+
+    <!--contact-end-->
+
+    <!-- footer secttions -->
+    <footer class="footer">
         <!--foter-start-->
-       
-<section >
-     
-            <div id="footer-01"> 
-                    <div class="container">
-                           <div class="row">
-                                <div class="col-md-3 col-sm-3">
-                                    <div class="foot-01">
-                                                <div class="logo-foot">
-                                                    <img src="images/logo_scl_white.png">
-                                                </div>
-                                                <div class="fac-icon"> 
-                                                     <P> Volg ons <br>
-                                                                <i class="fa fa-instagram" aria-hidden="true" style="padding-right:10px;"></i> 
-                                                                <i class="fa fa-facebook" aria-hidden="true" style="padding-right:10px;"></i>
-                                                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                                     </P>
-                                                 </div>
-                                                    <div class="copy-01"> 
-                                                        <P> &copy;Stunna Car lounge </P>
-                                                    </div>
-                                    </div>
-                                </div><!--col-3-->
-                                
-                                 <div class="col-md-3 col-sm-2">
-                                    <div class="foot-menu">
-                                        <h3> Menu </h3>
-                                            <ul> 
-                                                <li> <a href="#home">Home </a> </li>
-                                                <li> <a href="#services">services </a> </li>
-                                                <li> <a href="#vehicles">vehicles</a> </li>
-                                                <li> <a href="#features">features </a> </li>
-                                                <li> <a href="#reviews">reviews </a> </li>
-                                                <li> <a href="#contact us">contact us </a> </li>
-                                            </ul>
-                                    </div>
-                                </div><!--col-3-->
-                                
-                                 <div class="col-md-3 col-sm-3">
-                                        <div class="Opening">
-                                            <h3> Openingstijden </h3>
-                                            <p>Ma-Vr: 09.00-19.00</p>
-                                            <P>Za: 09.00-18.00</p>
-                                        </div>
-                                </div><!--col-3-->
-                                
-                                 <div class="col-md-3 col-sm-4">
-                                    <div class="foot-con">
-                                        <h3> Contact </h3>
-                                        <p> <span> <i class="fa fa-map-marker" style="height:60px;"  > </i> </span> Neerstraat 17.3511GD <br> Roermond</i> </p>
-                                        <P><span> <i class="fa fa-phone" ></i> </span>020 46596688 </P>
-                                        <P><span> <i class="fa fa-envelope" ></i> </span> info@stunnacarlounge.nl </p>          
-                                    </div>
-                                </div><!--col-3-->
-                                
-                                
-                           </div><!--row-->
-                       
-                     </div><!--container-->
-            </div><!--foter-01-->  
-            
-            <div class="clearfix"></div>
-</section>
-<!--foter-end-->
-  
-  
-<!--footer-bottom-start-->      
-<section >
- <div id="footer-01"> 
-    <div class="foot-end">
-            <div class="container">
+
+        <section>
+
+            <div id="footer-01">
+                <div class="container">
                     <div class="row">
-                                <div class="col-md-12"> 
-                                    <div class="foot-link"> 
-                                            <ul>
-                                                <li> <a href="#"> Algemene voorwaarden </a>  |</li>
-                                                <li> <a href="#"> Disclaimer </a> |</li>
-                                                <li> <a href="#"> Cookies</a> </li>
-                                            </ul>
-                                    </div><!--foot-link-->
-                                </div><!--col-md-12-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="foot-01">
+                                <div class="logo-foot">
+                                    <img src="images/logo_scl_white.png">
+                                </div>
+                                <div class="fac-icon">
+                                    <P> Volg ons <br>
+                                        <i class="fab fa-instagram" aria-hidden="true" style="padding-right:10px;"></i>
+                                        <i class="fab fa-facebook" aria-hidden="true" style="padding-right:10px;"></i>
+                                        <i class="fab fa-whatsapp" aria-hidden="true" style="padding-right:10px;"></i>
+                                        <i class="fab fa-tiktok" aria-hidden="true" style="padding-right:10px;"></i>
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    </P>
+                                </div>
+                                <div class="copy-01">
+                                    <P> &copy;Stunna Car lounge </P>
+                                </div>
+                            </div>
+                        </div><!--col-3-->
+
+                        <div class="col-md-3 col-sm-2">
+                            <div class="foot-menu">
+                                <h3> Menu </h3>
+                                <ul>
+                                    <li> <a href="#home">Home </a> </li>
+                                    <li> <a href="#services">services </a> </li>
+                                    <li> <a href="#vehicles">vehicles</a> </li>
+                                    <li> <a href="#features">features </a> </li>
+                                    <li> <a href="#reviews">reviews </a> </li>
+                                    <li> <a href="#contact us">contact us </a> </li>
+                                </ul>
+                            </div>
+                        </div><!--col-3-->
+
+                        <div class="col-md-3 col-sm-3">
+                            <div class="Opening">
+                                <h3> Openingstijden </h3>
+                                <p>Ma-Vr: 09.00-19.00</p>
+                                <P>Za: 09.00-18.00</p>
+                            </div>
+                        </div><!--col-3-->
+
+                        <div class="col-md-3 col-sm-4">
+                            <div class="foot-con">
+                                <h3> Contact </h3>
+                                <p> <span> <i class="fa fa-map-marker" style="height:60px;"> </i> </span> Neerstraat
+                                    17.3511GD <br> Roermond</i> </p>
+                                <P><span> <i class="fas fa-phone"></i> </span>020 46596688 </P>
+                                <P><span> <i class="far fa-envelope"></i> </span> info@stunnacarlounge.nl </p>
+                            </div>
+                        </div><!--col-3-->
+
+
                     </div><!--row-->
-            </div><!--container-fluid-->
-      </div><!--foot-end-->
-   </div><!--footer-01-->   
- <div class="clearfix"></div>
-</section>
-<!--footer-bottom-end-->  
 
-      </footer>
-     <!-- footer secttions -->
+                </div><!--container-->
+            </div><!--foter-01-->
 
-     
+            <div class="clearfix"></div>
+        </section>
+        <!--foter-end-->
 
 
+        <!--footer-bottom-start-->
+        <section>
+            <div id="footer-01">
+                <div class="foot-end">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="foot-link">
+                                    <ul>
+                                        <li> <a href="#"> Algemene voorwaarden </a> |</li>
+                                        <li> <a href="#"> Disclaimer </a> |</li>
+                                        <li> <a href="#"> Cookies</a> </li>
+                                    </ul>
+                                </div><!--foot-link-->
+                            </div><!--col-md-12-->
+                        </div><!--row-->
+                    </div><!--container-fluid-->
+                </div><!--foot-end-->
+            </div><!--footer-01-->
+            <div class="clearfix"></div>
+        </section>
+        <!--footer-bottom-end-->
+
+    </footer>
+    <!-- footer secttions -->
 
 
 
 
 
 
-    <script src="index.js"></script>
+
+
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    
 </body>
 
 </html>
