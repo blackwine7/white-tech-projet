@@ -7,3 +7,4 @@ function showLogin() {
   document.getElementById("signupForm").classList.add("hidden");
   document.getElementById("loginForm").classList.remove("hidden");
 }
+

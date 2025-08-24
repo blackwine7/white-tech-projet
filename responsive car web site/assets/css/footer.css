@@ -464,7 +464,7 @@ span.logo span {
 .slider .box .content {
     padding-top: 30px;
 }
- 
+
 
 /* services sections */
 .services {
@@ -611,6 +611,7 @@ span.logo span {
     .container-fluid .form .login {
         margin-left: 15px;
     }
+
     /* nav{
         position: fixed;
         top: 0;
@@ -627,10 +628,12 @@ span.logo span {
         z-index: 1;
         overflow-x: auto;
     }
+
     .review-slider::-webkit-scrollbar {
         display: none;
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
 
@@ -639,49 +642,78 @@ span.logo span {
 
 @media (min-width:660px) {
     .slider {
-        padding: 30px;
-        border: 3px solid #ccc;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 600px;
+        border: 1px solid #0c0b0b;
         position: relative;
-        z-index: 1;
         overflow: hidden;
     }
 
-    .wrapper {
-        padding: 0 10vh;
+    .slider .wrapper {
+        /* padding: 0 10vh; */
         display: flex;
-        overflow-x: auto;
-        scroll-behavior: smooth;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+       
     }
 
+    .wrapper {
+         overflow-x: auto;
+        scroll-behavior: smooth;
+    }
     .wrapper::-webkit-scrollbar {
         display: none;
     }
 
-    .slider .wrapper {
+    /* .slider .wrapper {
         display: flex;
         flex: 1 1 0;
         flex-wrap: nowrap;
-    }
+    } */
 
     .slider .box {
-        flex: 0 0 auto;
+        min-width: 100%;
     }
 
-    .fa-arrow-left {
-        left: 0;
-        position: absolute;
-        font-size: 40px;
-        opacity: 0.2;
+    .slider .box img {
+        /* Example for images inside .box */
+
+        width: 100%;
+    
+        object-fit: contain;
+        /*  'contain' if you want the whole image visible */
+        border-radius: 10px;
+        /* optional, for rounded corners */
+        display: block;
+
     }
 
-    .fa-arrow-right {
-        right: 0;
-        position: absolute;
-        font-size: 40px;
-        opacity: 0.2;
-    }
+    .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
 
-    .fa-arrow-right:hover, .fa-arrow-left:hover{
-        opacity: 1;
-    } 
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+    
+}
+
+.fa-star {
+    color: #f39c12;
 }
