@@ -28,3 +28,14 @@ function nextSlide() {
     }
     showSlide();
 }
+
+ window.addEventListener('resize', function () {
+            if (window.innerWidth >= 700) {
+                
+            } else {
+                HideButton.style.display = 'block'
+                if (!isShow) {
+                    container.style.display = 'none'
+                }
+            }
+        })

@@ -162,3 +162,10 @@ button:hover {
     text-decoration: underline;
     color: blue;
 }
+
+.text-grad {
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}

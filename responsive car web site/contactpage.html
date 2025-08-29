@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive car web site</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-white navbar-expand bg-dark d-flex align-items-center custom-navbar">
+        <div class="container-fluid d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="logo navbar-brand me-auto d-flex align-items-center">
+                <a href="" class="navbar-brand me-auto brand-title"><span>McKanons</span>Motors</a>
+            </div>
+            <div class="topnav me-auto collapse navbar-collapse justify-content-md-center navbar-nav">
+                <a href="index.html" class="nav-item px-4 nav-link-custom">home</a>
+                <a href="#services" class="nav-item px-4 nav-link-custom">services</a>
+                <a href="vehicles.html" class="nav-item px-4 nav-link-custom">vehicles</a>
+                <a href="featurepage.html" class="nav-item px-4 nav-link-custom">features</a>
+                <a href="testimonials.html" class="nav-item px-4 nav-link-custom">reviews</a>
+                <a href="#contactpage.html" class="nav-item px-4 nav-link-custom">contact us</a>
+            </div>
+
+            <div class="d-flex px-8 align-items-center gap-2 form search-login-group">
+                <form action="" method="post" class="me-15 search-form">
+                    <input type="search" name="" id="" value="" placeholder="search" class="form-control search-input">
+                </form>
+                <div class="login">
+                    <a href="../responsive car web site/login/learn.html" class="btn btn-primary login-btn">login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="contact-section py-5 bg-light">
+        <div class="container contact-container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-8 text-center">
+                    <h2 class="contact-title mb-3 fw-bold">Contact Us</h2>
+                    <p class="contact-desc text-muted">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis.
+                    </p>
+                </div>
+            </div>
+            <div class="row contact-content">
+                <div class="mb-4 mb-md-0">
+                    <div class=" rounded shadow-sm p-2 d-flex flex-row gap-4">
+                        <div class="info-block d-flex align-items-start flex-column">
+                            <div class="info-icon me-3 text-primary fs-3">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p class="info-main mb-1 fw-semibold">+1-316-555-0116</p><br>
+                                <p class="info-sub text-muted mb-0">+1-446-526-0117</p>
+                            </div>
+                        </div>
+                        <div class="info-block d-flex align-items-center flex-column">
+                            <div class="info-icon me-2 text-primary fs-3">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="info-main mb-1 fw-semibold">contact@example.com</p>
+                                <p class="info-sub text-muted mb-0">Dacostagic@example.com</p>
+                            </div>
+                        </div>
+                        <div class="info-block d-flex align-items-center flex-column">
+                            <div class="info-icon me-1 text-primary fs-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="info-main mb-0 fw-semibold">8502 Preston Rd. Ingle, Maine 98380, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact-form bg-white rounded shadow-sm p-4  mx-auto d-flex flex-column align-items-start ">
+                <div class="form-header mb-3 mx-auto">
+                    <h3 class="fw-semibold mb-2">Send us a message</h3>
+                </div>
+                
+                <form action="#" method="POST" class="contact-form ">
+                    <div class="row mb-3 mx-auto">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="form-label">Your name</label>
+                            <input type="text" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3 mx-auto">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="form-label">Phone number</label>
+                            <input type="tel" class="form-control" placeholder="Enter your phone number">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Company name</label>
+                            <input type="text" class="form-control" placeholder="Enter your company name">
+                        </div>
+                    </div>
+                    <div class="row mb-3 d-flex flex-column align-items-center  ">    
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary px-4 contact-btn">Send</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+
+    <style>
+        .contact-section {
+            background: #f8f9fa;
+        }
+
+        .contact-title {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .contact-desc {
+            font-size: 1.1rem;
+            color: #6c757d;
+        }
+
+        .info-block  {
+            width: 33.3%;
+        }
+        .info-block .info-icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e9ecef;
+            border-radius: 50%;
+        }
+
+        .info-main {
+            font-size: 1.1rem;
+        }
+
+        .contact-form .form-label {
+            font-weight: 500;
+        }
+
+        .contact-form{
+            justify-content: center;
+        }
+
+        .contact-form .form-control,
+        .contact-form textarea {
+            border-radius: 0.5rem;
+            border: 1px solid #ced4da;
+            box-shadow: none;
+            transition: border-color 0.2s;
+        }
+
+        .contact-form .form-control:focus,
+        .contact-form textarea:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.1rem rgba(13, 110, 253, .15);
+        }
+
+        .contact-form textarea{
+            height: 250px;
+            padding: 15px;
+        }
+
+        .contact-btn {
+            border-radius: 2rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 767.98px) {
+            .contact-title {
+                font-size: 2rem;
+            }
+
+            .contact-section .bg-white {
+                padding: 1.5rem !important;
+            }
+        }
+    </style>
+
+
+    <footer class="footer">
+        <!--foter-start-->
+
+        <section>
+            <div id="footer-01">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="foot-01">
+                                <div class="logo-foot">
+                                    <img src="images/logo_scl_white.png" alt="Logo">
+                                </div>
+                                <div class="fac-icon">
+                                    <p>Volg ons <br>
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                        <i class="fab fa-tiktok" aria-hidden="true"></i>
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    </p>
+                                </div>
+                                <div class="copy-01">
+                                    <p>&copy; Stunna Car lounge</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-2">
+                            <div class="foot-menu">
+                                <h3>Menu</h3>
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#vehicles">Vehicles</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#reviews">Reviews</a></li>
+                                    <li><a href="#contact us">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="Opening">
+                                <h3>Openingstijden</h3>
+                                <p>Ma-Vr: 09.00-19.00</p>
+                                <p>Za: 09.00-18.00</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="foot-con">
+                                <h3>Contact</h3>
+                                <p><span><i class="fa fa-map-marker"></i></span> Neerstraat 17.3511GD <br> Roermond</p>
+                                <p><span><i class="fas fa-phone"></i></span>020 46596688</p>
+                                <p><span><i class="far fa-envelope"></i></span> info@stunnacarlounge.nl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        <!--footer-bottom-start-->
+        <section>
+            <div id="footer-01">
+                <div class="foot-end">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="foot-link">
+                                    <ul>
+                                        <li><a href="#">Algemene voorwaarden</a> |</li>
+                                        <li><a href="#">Disclaimer</a> |</li>
+                                        <li><a href="#">Cookies</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+    </footer>
+</body>
+
+</html>

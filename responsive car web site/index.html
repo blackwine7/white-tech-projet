@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         .icons .fa-bars,
         .icons .fa-times {
@@ -18,31 +19,32 @@
 </head>
 
 <body>
-    <!-- navigation part -->
-    <nav class="navbar navbar-white navbar-expand bg-dark d-flex align-items-center">
+     <!-- navigation part -->
+    <nav class="navbar navbar-white navbar-expand bg-dark d-flex align-items-center custom-navbar">
         <div class="container-fluid d-flex">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation"> <span
-                    class="navbar-toggler-icon"></span> </button>
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="logo navbar-brand me-auto d-flex">
-                <a href="" class="navbar-brand me-auto "><span>McKanons</span>Motors</a>
+            <div class="logo navbar-brand me-auto d-flex align-items-center">
+                <a href="" class="navbar-brand me-auto brand-title"><span>McKanons</span>Motors</a>
             </div>
             <div class="topnav me-auto collapse navbar-collapse justify-content-md-center navbar-nav">
-                <a href="#home" class="nav-item  px-4 ">home</a>
-                <a href="#services" class="nav-item px-4">services</a>
-                <a href="#vehicles" class="nav-item px-4">vehicles</a>
-                <a href="#features" class="nav-item px-4">features</a>
-                <a href="#reviews" class="nav-item px-4">reviews</a>
-                <a href="#contact us" class="nav-item px-4">contact us</a>
+                <a href="#home" class="nav-item px-4 nav-link-custom">home</a>
+                <a href="#services" class="nav-item px-4 nav-link-custom">services</a>
+                <a href="vehicles.html" class="nav-item px-4 nav-link-custom">vehicles</a>
+                <a href="featurepage.html" class="nav-item px-4 nav-link-custom">features</a>
+                <a href="testimonials.html" class="nav-item px-4 nav-link-custom">reviews</a>
+                <a href="contactpage.html" class="nav-item px-4 nav-link-custom">contact us</a>
             </div>
 
-            <div class="d-flex px-8 align-items-center  gap-2 form ">
-                <form action="" method="post" class="me-15">
-                    <input type="search" name="" id="" value="" placeholder="search" class="form-control">
+            <div class="d-flex px-8 align-items-center gap-2 form search-login-group">
+                <form action="" method="post" class="me-15 search-form">
+                    <input type="search" name="" id="" value="" placeholder="search" class="form-control search-input">
                 </form>
                 <div class="login">
-                    <a href="../responsive car web site/login/learn.html" class="btn btn-primary">login</a>
+                    <a href="../responsive car web site/login/learn.html" class="btn btn-primary login-btn">login</a>
                 </div>
             </div>
         </div>
@@ -53,11 +55,11 @@
     <section class="home px-5 py-5 d-flex align-items-center">
         <div class="jumbotron d-flex align-items-center justify-content-space-between flex-nowrap ">
             <div class="col-lg-6 col ">
-                <h1 class="fw-bold text-body-emphasis ">Welcome to <span class="logo"><span>McKanons</span>Motors</span>
+                <h1 class="fw-bold ">Welcome to <span class="text-grad">McKanonsMotors</span>
                 </h1>
                 <p class="lead">Your one-stop destination for the best vehicles in town. Explore our wide range of cars
                     and find your perfect match.</p>
-                <a href="#vehicles" class="btn btn-primary">Explore Vehicles</a>
+                <a href="vehicles.html" class="btn btn-primary">Explore Vehicles</a>
             </div>
             <!-- <div class="col-md-2"></div> -->
             <div class="col-lg-6 ">
@@ -116,7 +118,7 @@
 
     <!-- services Sections -->
     <section id="services">
-        <h1 class="text-body-emphasis fw-bold text-center ">Our Services</h1>
+        <h1 class="text-center text-grad">Our Services</h1>
         <div class="container">
             <div class="row my-5">
 
@@ -202,6 +204,7 @@
 
         <!-- features sections -->
          <section class=" feature" id="features">
+        <h1 class="text-center text-grad ">Our new features</h1>
                         <div class="slider">
                             <button class="prev" onclick="prevSlide()">&#10094</button>
                             <button class="next" onclick="nextSlide()">&#10095</button>
@@ -221,7 +224,7 @@
                                         <i class="far fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -237,7 +240,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -253,7 +256,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -269,7 +272,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -285,7 +288,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -301,7 +304,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -317,7 +320,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -333,7 +336,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -349,7 +352,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -365,7 +368,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -381,7 +384,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -397,7 +400,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -413,7 +416,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -429,7 +432,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
 
                                 <div class="box">
@@ -445,7 +448,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="price">50 000$</div>
-                                    <a href="#" class="btn btn-success">check out</a>
+                                    <a href="featurepage.html" class="btn btn-success">check out</a>
                                 </div>
                             </div>
 
@@ -456,7 +459,7 @@
     <!-- review sections -->
     <section id="review" class="review">
 
-        <h1 class="text-center">client's reviews</h1>
+        <h1 class="text-center text-grad my-5">client's reviews</h1>
         <div class="review-slider">
 
             <div class="wrapper ">
@@ -645,7 +648,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner-text">
-                        <h1>Contact</h1>
+                        <h1 class="text-grad mt-5">Contact</h1>
                     </div><!--banner-text-->
                 </div><!--col-md-12-->
             </div><!--row-->
@@ -660,6 +663,7 @@
     <!--contact-start-->
 
     <section id="contact us">
+        
         <div class="container-fluid">
             <div class="row cont-row">
                 <div class="col-md-6 col-sm-6 contact-col">
@@ -670,92 +674,74 @@
                                     <div class="contact-address">
                                         <h4>address</h4>
                                         <p>Newyork 17,<br> 3511GD <br>philiwest park</p>
-                                    </div><!--contact-address-->
-                                </div><!--col-md-6-->
-
+                                    </div>
+                                </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact-address">
                                         <h4>Openingstijden showroom</h4>
                                         <p>Ma-Vr: 09.00-19.00 uur<br> Za: 09.00-18.00 uur</p>
-                                    </div><!--contact-address-->
-                                </div><!--col-md-6-->
-                            </div><!--row-->
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact-address">
                                         <h4>Telephone and e-mail</h4>
                                         <p>+1 46596688<br> 3511GD <br>Dacostagic@gmail.com</p>
-                                    </div><!--contact-address-->
-                                </div><!--col-md-6-->
-
+                                    </div>
+                                </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact-address">
                                         <h4>her you will locate us</h4>
                                         <p>Ma-Vr: 09.00-19.00 uur<br> Za: 09.00-18.00 uur</p>
-                                    </div><!--contact-address-->
-                                </div><!--col-md-6-->
-                            </div><!--row-->
-
+                                    </div>
+                                </div>
+                            </div>
                             <div class="map-text">
                                 <p><span></span> Our location on Google maps</p>
-                            </div><!--map-text-->
-
-                        </div><!--top-contact-->
-
+                            </div>
+                        </div>
                         <div class="bottom-contact">
-
                             <div class="contact-heading">
                                 <h2>LEAVE US A MESSAGE</h2>
-                            </div><!--contact-heading-->
-
+                            </div>
                             <div class="contact-form">
                                 <form name="frm" action="mailsend.php" method="POST">
                                     <p>
                                         <label>Name</label>
                                         <input type="text" name="naam" required value="" id="" placeholder="">
                                     </p>
-
                                     <p>
                                         <label>E-mail</label>
                                         <input type="email" name="email" required value="" id="" placeholder="">
                                     </p>
-
                                     <p>
                                         <label>Phone Number</label>
                                         <input type="number" name="telefoonnumber" required value="" id=""
                                             placeholder="">
                                     </p>
-
                                     <p>
                                         <label>message</label>
                                         <textarea name="bericht" required cols="" rows="" placeholder=""></textarea>
                                     </p>
-
                                     <p><input type="submit" name="submit" value="Submit" id="" class="button-cont"></p>
                                 </form>
-
-                            </div><!--contact-form-->
-
-                        </div><!--bottom-contact-->
-
-                    </div><!--contact-left-->
-                </div><!--col-md-5-->
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 col-sm-6 contact-col">
                     <div class="contact-right">
-
                         <div class="map-div">
                             <div id="map"></div>
-                        </div><!--map-div-->
-
+                        </div>
                         <div class="contact-img">
                             <img src="images/MAPMC KANONS.jpg" alt="contact-img" class="img-responsive">
-                        </div><!--contact-img-->
-
-                    </div><!--contact-right-->
-                </div><!--col-md-7-->
-            </div><!--row-->
-        </div><!--container-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
