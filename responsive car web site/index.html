@@ -9,37 +9,31 @@
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .icons .fa-bars,
-        .icons .fa-times {
-            display: flex;
-            color: aliceblue;
-        }
-    </style>
 </head>
 
 <body>
-     <!-- navigation part -->
+    <!-- navigation part -->
     <nav class="navbar navbar-white navbar-expand bg-dark d-flex align-items-center custom-navbar">
         <div class="container-fluid d-flex">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <button class="btn-icons" onclick="toggleButton2()"><i class="fas fa-bars"></i></button>
+            <button class="btn-icons" onclick="toggleButton()"><i class="fas fa-times"></i></button>
 
             <div class="logo navbar-brand me-auto d-flex align-items-center">
                 <a href="" class="navbar-brand me-auto brand-title"><span>McKanons</span>Motors</a>
             </div>
-            <div class="topnav me-auto collapse navbar-collapse justify-content-md-center navbar-nav">
-                <a href="#home" class="nav-item px-4 nav-link-custom">home</a>
-                <a href="#services" class="nav-item px-4 nav-link-custom">services</a>
-                <a href="vehicles.html" class="nav-item px-4 nav-link-custom">vehicles</a>
-                <a href="featurepage.html" class="nav-item px-4 nav-link-custom">features</a>
-                <a href="testimonials.html" class="nav-item px-4 nav-link-custom">reviews</a>
-                <a href="contactpage.html" class="nav-item px-4 nav-link-custom">contact us</a>
+
+            <div class="hideContent">
+                <div class=" topnav me-auto collapse navbar-collapse justify-content-md-center navbar-nav">
+                    <a href="#home" class="nav-item px-4 nav-link-custom">home</a>
+                    <a href="#services" class="nav-item px-4 nav-link-custom">services</a>
+                    <a href="vehicles.html" class="nav-item px-4 nav-link-custom">vehicles</a>
+                    <a href="featurepage.html" class="nav-item px-4 nav-link-custom">features</a>
+                    <a href="testimonials.html" class="nav-item px-4 nav-link-custom">reviews</a>
+                    <a href="contactpage.html" class="nav-item px-4 nav-link-custom">contact us</a>
+                </div>
             </div>
 
-            <div class="d-flex px-8 align-items-center gap-2 form search-login-group">
+            <div class="d-flex px-8 align-items-center gap-2 form search-login-group hidecontent">
                 <form action="" method="post" class="me-15 search-form">
                     <input type="search" name="" id="" value="" placeholder="search" class="form-control search-input">
                 </form>
@@ -47,6 +41,7 @@
                     <a href="../responsive car web site/login/learn.html" class="btn btn-primary login-btn">login</a>
                 </div>
             </div>
+
         </div>
     </nav>
     <!-- navigation part -->
@@ -219,7 +214,7 @@
 
         <!-- features sections -->
          <section class=" feature" id="features">
-        <h1 class="text-center text-grad ">Our new features</h1>
+                        <h1 class="text-center text-grad ">Our new features</h1>
                         <div class="slider">
                             <button class="prev" onclick="prevSlide()">&#10094</button>
                             <button class="next" onclick="nextSlide()">&#10095</button>
@@ -678,7 +673,7 @@
     <!--contact-start-->
 
     <section id="contact us">
-        
+
         <div class="container-fluid">
             <div class="row cont-row">
                 <div class="col-md-6 col-sm-6 contact-col">
@@ -860,15 +855,72 @@
     </footer>
     <!-- footer secttions -->
 
+    <style>
+        .btn-icons {
+            display: none;
+        }
 
+        @media(max-width:640px) {
+            .hide {
+                display: none !important;
+            }
 
+            .btn-icons {
+                display: block;
+                position: absolute;
+                top: 15%;
+                right: 20px;
+            }
 
+            
+            
+            .logo {
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
 
+        }
 
+        @media(max-width:768px) {
 
+            .hidecontent {
+                margin: 0 auto;
+            }
 
+            .logo {
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
 
+        @media(max-width:1024px) {
 
+            .hidecontent {
+                margin: 0 auto;
+            }
+
+            .logo {
+                margin: 0 auto;
+            }
+
+        }
+    </style>
+    <!-- 
+
+    <script>
+        let hideContent = document.getElementById('hideContent');
+        let myB = document.getElementById('myB');
+
+        myB.addEventListener('click', () => {
+            hideContent.classList.toggle('hide');
+        })
+    </script> -->
+    <script src="index.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slider.js"></script>
 

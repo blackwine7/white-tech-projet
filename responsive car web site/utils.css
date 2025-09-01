@@ -169,3 +169,32 @@ button:hover {
     color: transparent;
     text-transform: capitalize;
 }
+
+.nav-link-custom {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: color 0.2s, border-bottom 0.2s;
+    position: relative;
+    padding-bottom: 4px;
+
+    &:hover {
+        color: #44b0ff;
+        text-decoration: none;
+    }
+    
+    &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #44b0ff;
+    transition: width .2s;
+    margin: 0 auto;
+
+    &:hover{
+        width: 60%;
+    }
+}
+}
