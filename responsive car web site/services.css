@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url("cars.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right;
+    padding: 100px 0;
+    text-align: left;
+
+}
+.hero-text  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.hero-text h1 {
+    font-size: 3rem;
+    color: #b90b0b;
+    text-align: left;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: left;
+    color: #121312;
+}
+
+.features {
+    background: #b7e01f;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.services-items {
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #aa0f0f;
+    color: #e6dfdfe8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    background-color: rgb(223, 216, 216);
+    color: rgb(24, 21, 21);
+    max-width: 100%;
+}
+
+#about {
+    background-color: #b94b0b;
+    text-align: center;
+    margin: 60px 0;
+    padding: -5px 20px;
+    width: 100%;
+    position: relative;
+    bottom: 80px;
+    height: 110px;
+    color: aliceblue;
+}
+.container{
+    color: #0f0f0f;
+    text-align: center;
+}.btn btn-primary{
+    color: #b94b0b;
+}.navbar-nav{
+    color: aliceblue;
+}
